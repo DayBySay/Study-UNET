@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 54100831123610532}
   - component: {fileID: 114804245531246164}
   - component: {fileID: 114486017816541196}
+  - component: {fileID: 114265185901670348}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -98,6 +99,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114265185901670348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1613137241739194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951b2cfe906a4913865db3b367f8ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114486017816541196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -132,22 +144,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 31
+    i1: 209
+    i2: 122
+    i3: 244
+    i4: 65
+    i5: 16
+    i6: 244
+    i7: 229
+    i8: 169
+    i9: 195
+    i10: 20
+    i11: 184
+    i12: 97
+    i13: 199
+    i14: 113
+    i15: 159
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!135 &135291486493039146
